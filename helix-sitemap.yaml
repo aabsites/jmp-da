@@ -9,7 +9,7 @@ sitemaps:
         source: /jmp-en.json
         destination: /en/sitemap.xml
         hreflang: en
-        alternate: /{path}
+        alternate: /en/{path}
       de:
         source: /jmp-de.json
         destination: /de/sitemap.xml
