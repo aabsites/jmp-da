@@ -1,11 +1,17 @@
+version: 1
+
 sitemaps:
-  en:
-    source: /jmp-en.json
-    destination: /en/sitemap.xml
-    hreflang: en
-    alternate: /{path}
-  de:
-    source: /jmp-de.json
-    destination: /de/sitemap.xml
-    hreflang: de
-    alternate: /de/{path}
+  site:
+    origin: https://www.jmp.com
+    lastmod: YYYY-MM-DD
+    languages:
+      en:
+        source: /jmp-en.json
+        destination: /en/sitemap.xml
+        hreflang: en
+        alternate: /{path}
+      de:
+        source: /jmp-de.json
+        destination: /de/sitemap.xml
+        hreflang: de
+        alternate: /de/{path}
