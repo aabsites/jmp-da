@@ -20,16 +20,16 @@ sitemaps:
         destination: /fr/sitemap.xml
         hreflang: fr
         alternate: /fr/{path}
-      # it:
-      #   source: /jmp-it.json
-      #   destination: /it/sitemap.xml
-      #   hreflang: it
-      #   alternate: /it/{path}
-      # es:
-      #   source: /jmp-es.json
-      #   destination: /es/sitemap.xml
-      #   hreflang: es
-      #   alternate: /es/{path}
+      it:
+        source: /jmp-it.json
+        destination: /it/sitemap.xml
+        hreflang: it
+        alternate: /it/{path}
+      es:
+        source: /jmp-es.json
+        destination: /es/sitemap.xml
+        hreflang: es
+        alternate: /es/{path}
       # ko:
       #   source: /jmp-ko.json
       #   destination: /ko/sitemap.xml
