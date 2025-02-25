@@ -5,7 +5,7 @@ sitemaps:
     origin: https://www.jmp.com
     lastmod: YYYY-MM-DD
     languages:
-      en:
+      default:
         source: /jmp-en.json
         destination: /en/sitemap.xml
         hreflang: en
