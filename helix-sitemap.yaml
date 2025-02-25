@@ -4,3 +4,8 @@ sitemaps:
     destination: /en/sitemap.xml
     hreflang: en
     alternate: /{path}
+  de:
+    source: /jmp-de.json
+    destination: /de/sitemap.xml
+    hreflang: de
+    alternate: /de/{path}
