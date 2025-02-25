@@ -1,5 +1,6 @@
 sitemaps:
   en:
-    origin: https://www.jmp.com/
-    lastmod: YYYY-MM-DD
-    destination: /sitemap.xml
+    source: /jmp-en.json
+    destination: /en/sitemap.xml
+    hreflang: en
+    alternate: /{path}
